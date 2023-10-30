@@ -1,0 +1,19 @@
+# ignore images not specificially saved in a directory
+*.png
+
+# ignore slurm log files
+slurm*
+logs
+old_error_logs
+
+# Don't include the models (which are on /vol/bitbucket
+models
+
+# Ignore anything that has been tagged as unnecessary
+unneeded*
+*redundant*
+untracked
+
+#Ignore pycache
+dnnlib/tflib/__pycache__
+__pycache__
